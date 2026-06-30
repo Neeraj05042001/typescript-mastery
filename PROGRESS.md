@@ -5,9 +5,9 @@
 - [x] Lesson 2 — Installation, Compiler, tsconfig
 - [x] Lesson 3 — Primitive Types
 - [x] Lesson 4 — Arrays
-- [ ] Lesson 5 — Objects & Type Aliases
-- [ ] Lesson 6 — Functions
-- [ ] Lesson 7 — Interfaces
+- [x] Lesson 5 — Objects & Type Aliases
+- [x] Lesson 6 — Functions
+- [x] Lesson 7 — Interfaces
 
 ## Phase 2 — Intermediate
 - [ ] All lessons pending
