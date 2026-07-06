@@ -173,7 +173,11 @@ type Product = Identifiable &
 - **Union (`|`)** — "this OR that." _More_ values qualify, but you can safely do _less_ with any one of them (only what's common to every member, until you narrow).
 - **Intersection (`&`)** — "this AND that." _Fewer_ values qualify (must satisfy everything at once), but once a value qualifies, you can do _more_ with it — everything from every combined piece is available immediately, no narrowing needed.
 
-It's genuinely inverted. Let me make it concrete.### The intersection gotcha — incompatible types collapse to `never`
+It's genuinely inverted. Let me make it concrete.
+
+![unions&intersections](/assets/unions-intersections.png)
+
+### The intersection gotcha — incompatible types collapse to `never`
 
 ```typescript
 type Impossible = string & number;
