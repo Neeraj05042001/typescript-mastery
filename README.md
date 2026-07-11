@@ -7,11 +7,13 @@
 </p>
 
 <p align="center">
-  <a href="#start-here">Start learning</a>
+  <a href="./START-HERE.md">Start learning</a>
   ·a
-  <a href="#curriculum">Explore the curriculum</a>
+  <a href="./ROADMAP.md">Explore the curriculum</a>
   ·
-  <a href="#milestone-projects">See the projects</a>
+  <a href="./projects/README.md">See the projects</a>
+  ·
+  <a href="./resources/README.md">Browse resources</a>
 </p>
 
 <p align="center">
@@ -22,7 +24,7 @@
 </p>
 
 > [!NOTE]
-> **This course is actively being completed.** Foundations is available now, Phase 2 is underway, and the full 33-lesson curriculum is being released in public. Published lessons are ready to study; upcoming material is clearly marked below.
+> **This course is actively being completed.** Foundations is available now, Phase 2 is underway, and the full 33-lesson curriculum is being released in public. Published lessons are ready to study; upcoming material is clearly marked below. See [START-HERE.md](./START-HERE.md) for guidance, [ROADMAP.md](./ROADMAP.md) for the full plan, and [PROGRESS.md](./PROGRESS.md) for live status.
 
 ## Why TypeScript Mastery?
 
@@ -38,12 +40,12 @@ It is built for:
 
 ## Start here
 
-| Your goal | Recommended route | First step |
-| --- | --- | --- |
-| Learn TypeScript from zero | Complete Foundations in order, then move phase by phase | [Begin with Lesson 1 — What is TypeScript?](./phase-1-foundations/lesson-01-what-is-typescript/) |
-| Move from JavaScript to TypeScript | Learn the compiler, primitives, objects, functions, and interfaces before tackling generics | [Set up TypeScript and `tsconfig`](./phase-1-foundations/lesson-02-installation-compiler-tsconfig/) |
-| Prepare for practical work | Finish Foundations, then focus on types, narrowing, generics, APIs, and the milestone projects | Start with [Foundations](./phase-1-foundations/) |
-| Prepare for interviews | Follow the full path, complete each assessment, and revisit the Q&A references | Start with [Lesson 1](./phase-1-foundations/lesson-01-what-is-typescript/) |
+| Your goal                          | Recommended route                                                                              | First step                                                                                          |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Learn TypeScript from zero         | Complete Foundations in order, then move phase by phase                                        | [Begin with Lesson 1 — What is TypeScript?](./phase-1-foundations/lesson-01-what-is-typescript/)    |
+| Move from JavaScript to TypeScript | Learn the compiler, primitives, objects, functions, and interfaces before tackling generics    | [Set up TypeScript and `tsconfig`](./phase-1-foundations/lesson-02-installation-compiler-tsconfig/) |
+| Prepare for practical work         | Finish Foundations, then focus on types, narrowing, generics, APIs, and the milestone projects | Start with [Foundations](./phase-1-foundations/)                                                    |
+| Prepare for interviews             | Follow the full path, complete each assessment, and revisit the Q&A references                 | Start with [Lesson 1](./phase-1-foundations/lesson-01-what-is-typescript/)                          |
 
 ## The learning experience
 
@@ -66,13 +68,13 @@ As the course is completed, every lesson will include concise notes, practical e
 
 <p align="center"><sub>Open the roadmap image for the full curriculum view.</sub></p>
 
-| Phase | Focus | Lessons | Availability |
-| --- | --- | ---: | --- |
-| 1. Foundations | Types, arrays, objects, functions, interfaces | 7 | **Available now** |
-| 2. Intermediate | Unions, generics, utility types, narrowing, modules | 7 | **In progress** — first lessons live |
-| 3. Advanced | Advanced generics, conditional and mapped types, declaration files | 6 | Planned |
-| 4. Production TypeScript | React, Next.js, Node.js, Express, API and database typing | 8 | Planned |
-| 5. Enterprise TypeScript | Type architecture, reusable systems, scalable patterns | 5 | Planned |
+| Phase                                                        | Focus                                                              | Lessons | Availability                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------------ | ------: | ------------------------------------ |
+| [1. Foundations](./phase-1-foundations/)                     | Types, arrays, objects, functions, interfaces                      |       7 | **Available now**                    |
+| [2. Intermediate](./phase-2-intermediate/)                   | Unions, generics, utility types, narrowing, modules                |       7 | **In progress** — first lessons live |
+| [3. Advanced](./phase-3-advanced/)                           | Advanced generics, conditional and mapped types, declaration files |       6 | Planned                              |
+| [4. Production TypeScript](./phase-4-production-typescript/) | React, Next.js, Node.js, Express, API and database typing          |       8 | Planned                              |
+| [5. Enterprise TypeScript](./phase-5-enterprise-typescript/) | Type architecture, reusable systems, scalable patterns             |       5 | Planned                              |
 
 <details>
 <summary><strong>Phase 1 — Foundations</strong> · 7 lessons · available now</summary>
@@ -130,17 +132,17 @@ As the remaining phases are published, the complete curriculum will include:
 
 These projects turn the curriculum into portfolio-ready practice. They will be released alongside the production-focused phases.
 
-| Project | What you will practice |
-| --- | --- |
-| **Typed Todo API** | Request and response contracts, CRUD operations, Express, and TypeScript |
-| **Typed Express Application** | Middleware, validation, authentication, error handling, and maintainable backend boundaries |
-| **Full-Stack Typed Application** | React, Next.js, Node.js, shared types, and production-style architecture |
+| Project                          | What you will practice                                                                      |
+| -------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Typed Todo API**               | Request and response contracts, CRUD operations, Express, and TypeScript                    |
+| **Typed Express Application**    | Middleware, validation, authentication, error handling, and maintainable backend boundaries |
+| **Full-Stack Typed Application** | React, Next.js, Node.js, shared types, and production-style architecture                    |
 
 ## Learning in public
 
-This repository is intentionally being built in public. That means you can follow the course as it grows, suggest clearer explanations, report issues, and help make the material more useful for the next learner.
+This repository is intentionally being built in public. You can follow the course as it grows, suggest clearer explanations, report issues, and help make the material more useful for the next learner. Read the [contribution guide](./CONTRIBUTING.md) before opening an issue or pull request.
 
-If you want to use this as your study space, fork it and keep a personal learning journal alongside your exercise attempts. Please use the material to learn and build—not to republish completed solutions as your own work.
+If you want to use this as your study space, fork it and keep a [personal learning journal](./resources/learning-journal-template.md) alongside your exercise attempts. Please use the material to learn and build—not to republish completed solutions as your own work.
 
 ## Quality principles
 
@@ -156,8 +158,14 @@ TypeScript Mastery is guided by a few non-negotiable principles:
 
 Built by **Neeraj Kumar**, a full-stack developer focused on creating useful software and clear educational resources.
 
-- [GitHub](https://github.com/Neeraj05042001)
-- [LinkedIn](https://www.linkedin.com/in/neeraj-kumar1904/)
+![Neeraj](/assets//author-banner.png)
+
+<div align="center">
+
+ [GitHub](https://github.com/Neeraj05042001)
+
+ [LinkedIn](https://www.linkedin.com/in/neeraj-kumar1904/)
+</div>
 
 ---
 
