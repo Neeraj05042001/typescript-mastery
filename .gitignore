@@ -1,6 +1,26 @@
+
+
+
+
+# Dependencies
 node_modules/
+
+# Build and test output
 dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*.local.json
+
 *.js
 *.d.ts
-.DS_Store
 set-up.md
